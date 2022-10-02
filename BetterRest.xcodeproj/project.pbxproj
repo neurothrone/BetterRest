@@ -52,10 +52,8 @@
 		2F065A0A28E95B420015A30E /* BetterRest */ = {
 			isa = PBXGroup;
 			children = (
-				2F065A0B28E95B420015A30E /* BetterRestApp.swift */,
-				2F065A0D28E95B420015A30E /* ContentView.swift */,
-				2F065A0F28E95B420015A30E /* Assets.xcassets */,
-				2F065A1128E95B420015A30E /* BetterRest.entitlements */,
+				2F065A1A28E95B550015A30E /* App */,
+				2F065A1B28E95B580015A30E /* UI */,
 				2F065A1228E95B420015A30E /* Preview Content */,
 			);
 			path = BetterRest;
@@ -67,6 +65,24 @@
 				2F065A1328E95B420015A30E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2F065A1A28E95B550015A30E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2F065A0B28E95B420015A30E /* BetterRestApp.swift */,
+				2F065A0F28E95B420015A30E /* Assets.xcassets */,
+				2F065A1128E95B420015A30E /* BetterRest.entitlements */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2F065A1B28E95B580015A30E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2F065A0D28E95B420015A30E /* ContentView.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +277,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = BetterRest/BetterRest.entitlements;
+				CODE_SIGN_ENTITLEMENTS = BetterRest/App/BetterRest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BetterRest/Preview Content\"";
@@ -299,7 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = BetterRest/BetterRest.entitlements;
+				CODE_SIGN_ENTITLEMENTS = BetterRest/App/BetterRest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BetterRest/Preview Content\"";
